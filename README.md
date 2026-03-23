@@ -38,6 +38,5 @@ This project is licensed under the **MIT License**.
 **Disclaimer:** This repository is for research and documentation purposes only. Sentinel V8 is a proprietary systematic model. The contents herein do not constitute financial advice.
 
 ---
-**Lead Developer:** Paul Ajimoti (Capital JP)  
-**Authority:** FTMO-Verified Proprietary Trader  
+**Lead Developer:** Paul Ajimoti (Capital JP)   
 **Lab:** SOOT AI Labs
