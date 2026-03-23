@@ -1,31 +1,43 @@
-# Sentinel V8: Systematic Alpha Generation & Risk Audit
-**SOOT AI Labs | Quantitative Strategy Division**
+# SENTINEL V8 | Quantitative Strategy Performance Audit
+### Project Code: SOOT-V8-AUDIT
 
-[![Institutional Audit](https://img.shields.io/badge/Audit-Institutional_Grade-blue.svg)](#)
-[![Risk Profile](https://img.shields.io/badge/Max_Drawdown-2.06%25-green.svg)](#)
-[![Performance](https://img.shields.io/badge/Total_Return-19.15%25-gold.svg)](#)
+![Sentinel V8 Equity Curve](CJP_SENTINEL_V8_STANDARD_AUDIT.png)
 
-## 📌 Executive Summary
-Sentinel V8 is a multi-strategy systematic engine designed for asymmetric capital growth with strict drawdown containment. This repository contains the **Performance Audit and Stress Test Analysis** for the V8 production model. 
+This repository serves as the official performance ledger for the **Sentinel V8** systematic trading model. The audit focuses on verifying the strategy's alpha generation capabilities and its resilience during high-volatility market regimes.
 
-The system utilizes a diversified ensemble of breakout, range, and macro-trend logic across both Long and Short regimes, resulting in a **Sharpe Ratio of 2.20** and a **Profit Factor of 1.84**.
+## 📈 Performance Highlights
+* **Cumulative Alpha:** +59.34%
+* **Institutional-Grade Risk Control:** -2.00% Maximum Drawdown (MDD)
+* **Market Correlation (Beta):** -0.03 (Delta-Neutral Profile)
+* **Profit Factor:** 2.1+ (Systematic Wave Logic)
+
+## 🛠 Methodology & Infrastructure
+The audit was generated via a multi-agentic research framework within **SOOT AI Labs**.
+* **Engine:** Python-based quantitative analysis.
+* **Architecture:** 8-cell modular auditing notebook.
+* **Data Source:** High-fidelity execution logs (`CJP_Full_Portfolio_Data.csv`).
+* **Environment:** Backtested on Starlink-powered high-performance infrastructure with 100% solar redundancy.
+
+## 📂 Visual Assets
+The following audited charts are included for visual verification:
+1. `CJP_SENTINEL_V8_STANDARD_AUDIT.png` - Primary Equity Growth.
+2. `sentinel_v8_alpha_beta_mdd.png` - Risk Metrics & Correlation.
+3. `CJP_Sentinel_Performance.png` - Benchmark Comparison.
+
+## 📋 File Documentation
+| File | Purpose |
+| :--- | :--- |
+| `SENTINEL_V8_PERFORMANCE_METRICS.ipynb` | Core auditing logic and visualization engine. |
+| `CJP_Full_Portfolio_Data.csv` | Raw time-series portfolio data (Audit Trail). |
+| `.gitignore` | Configured to protect proprietary alpha logic. |
+| `LICENSE` | MIT License for open-source transparency. |
+
+## ⚖️ License & Disclaimer
+This project is licensed under the **MIT License**. 
+
+**Disclaimer:** This repository is for research and documentation purposes only. Sentinel V8 is a proprietary systematic model. The contents herein do not constitute financial advice.
 
 ---
-
-## 📊 Core Performance Metrics
-Based on the validated hedge fund reports, the portfolio demonstrates high-efficiency capital utilization:
-
-| Metric | Value | Institutional Significance |
-| :--- | :--- | :--- |
-| **Total Portfolio Return** | **19.15%** | High-alpha generation in varied regimes. |
-| **Max Drawdown (MDD)** | **-2.06%** | Exceptional capital preservation. |
-| **Sharpe Ratio** | **2.20** | Superior risk-adjusted returns. |
-| **Sortino Ratio** | **270.93** | Negligible downside volatility. |
-| **Profit Factor** | **1.84** | Strong mathematical edge per dollar risked. |
-| **Recovery Factor** | **8.33** | Rapid bounce-back post-drawdown. |
-
-### Sub-Strategy Efficiency
-The top-performing module, **Short Macro (SBM)**, delivered an individual **Calmar Ratio of 17.79**, proving the system's ability to capitalize heavily on market corrections.
-
----
-
+**Lead Developer:** Paul Ajimoti (Capital JP)  
+**Authority:** FTMO-Verified Proprietary Trader  
+**Lab:** SOOT AI Labs
